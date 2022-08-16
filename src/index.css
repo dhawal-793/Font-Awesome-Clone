@@ -1,13 +1,14 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.custom-btn-header {
+  @apply p-2  flex align-middle font-light text-xs md:px-5 md:py-4 mx-0 text-[rgb(25,48,83)] md:font-bold lg:p-2 border-2 border-r-0 hover:border-2 hover:border-[rgb(20,110,190)] focus-within:bg-[rgb(20,110,190)] focus-within:text-white active:bg-[rgb(20,110,190)];
 }
+.custom-btn-side-bar {
+  @apply py-1 px-3 border-2 border-gray-100 rounded-md hover:border-2 hover:border-gray-300;
+}
+.custom-card-main {
+  @apply bg-white hover:bg-yellow-400 text-center rounded-lg h-28 py-5;
+}
+@tailwind utilities;
+
