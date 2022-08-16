@@ -1,6 +1,23 @@
-# Getting Started with Create React App
+# Technologies Used
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Font Awesome clone is build using React Js and Tailwind CSS and Icons are used from Font Awesome itself.
+
+# Setting up the Node Js in your local computer
+
+Install Node Js on your Local System (https://nodejs.org/en/download/).
+Download according to your syaytem (I prefer LTS version).
+
+# Clone this repository into your project folder
+
+git clone https://github.com/dhawal-793/Font-Awesome-Clone
+
+# Getting Started with NewsPanda App
+
+Open the terminal and cd to the root directory of Font-Awesome-Clone.
+Run "npm i" to install the necessary dependencies.
+After the installation of the dependencies run "npm run start" to open the app in development mode.
+It will start a server at (http://localhost:3000)
+
 
 ## Available Scripts
 
@@ -13,11 +30,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
