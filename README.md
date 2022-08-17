@@ -9,13 +9,17 @@ Download according to your syaytem (I prefer LTS version).
 
 # Clone this repository into your project folder
 
-git clone https://github.com/dhawal-793/Font-Awesome-Clone
+
+[git clone https://github.com/dhawal-793/Font-Awesome-Clone]
+
 
 # Getting Started with NewsPanda App
 
 Open the terminal and cd to the root directory of Font-Awesome-Clone.
-Run "npm i" to install the necessary dependencies.
-After the installation of the dependencies run "npm run start" to open the app in development mode.
+
+Run `npm i` to install the necessary dependencies.
+After the installation of the dependencies run `npm run start` to open the app in development mode.
+
 It will start a server at (http://localhost:3000)
 
 
