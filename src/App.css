@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&family=Oswald:wght@500&display=swap");
+
 .App {
-  text-align: center;
+  font-family: "Baloo 2", cursive;
 }
 
 .App-logo {
