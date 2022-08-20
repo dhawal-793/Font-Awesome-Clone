@@ -1,15 +1,17 @@
-import React, { useRef, useState } from 'react'
+import React, { useState, useRef } from 'react'
 import icons from "./icons"
+import IconCard from "./IconCard"
+
 const MainContent = () => {
-    // const ref = useRef(null)
-    // const [iconData, setIconData] = useState({})
-    // const handleClick = (element) => {
-    //     setIconData(element)
-    //     ref.current.click();
-    // }
+    const ref = useRef(null)
+    const [iconData, setIconData] = useState({})
+    const handleClick = (element) => {
+        setIconData(element)
+        ref.current.click();
+    }
     return (
         <>
-            {/* <IconCard iconData={iconData} reference={ref} /> */}
+            <IconCard iconData={iconData} reference={ref} />
 
             <div className="w-[80vw] pl-6 pr-2">
                 {/* <!-- Main header --> */}
@@ -21,8 +23,8 @@ const MainContent = () => {
                 <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 2xl:grid-cold-9 grid-flow-row gap-4 py-6">
                     {icons.map((element) => {
                         return (
-                            <div className=" custom-card-main" key={element.class} >
-                                {/* onClick={() => handleClick(element)} */}
+                            <div className=" custom-card-main" key={element.class}
+                                onClick={() => handleClick(element)}>
                                 <div className="space-y-4 ">
                                     <div className="text-3xl"><i className={element.class}></i></div>
                                     <div className="text-xs px-3">{element.name}</div>
