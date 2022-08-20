@@ -1,16 +1,16 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Home from "./components/Home";
-import Start from "./components/Start";
-import Search from "./components/Search";
-import Icons from "./components/Icons";
-import Docs from "./components/Docs";
-import Plans from "./components/Plans";
-import Blog from "./components/Blog";
-import Support from "./components/Support";
+import Navbar from "./components/Main/Navbar";
+import Footer from "./components/Main/Footer";
+import Home from "./components/Main/Home";
+import Start from "./components/Main/Start";
+import Search from "./components/Main/Search";
+import Icons from "./components/Main/Icons";
+import Docs from "./components/Main/Docs";
+import Plans from "./components/Main/Plans";
+import Blog from "./components/Main/Blog";
+import Support from "./components/Main/Support";
 
 function App() {
   return (
