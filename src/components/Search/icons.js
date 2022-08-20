@@ -41,6 +41,7 @@ const icons = [
     { name: "9", class: "fa-solid fa-9" },
     { name: "9", class: "fa-regular fa-9" },
     { name: "9", class: "fa-light fa-9" },
+    { name: "A", class: "fa-solid fa-a" },
     { name: "Accessible-Icon", class: "fa-brands fa-accessible-icon" },
     { name: "Accusoft", class: "fa-brands fa-accusoft" },
     { name: "Adn", class: "fa-brands fa-adn" },
