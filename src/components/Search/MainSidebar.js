@@ -9,13 +9,19 @@ const MainSidebar = () => {
         <ul className="space-y-4 min-w-full text-gray-500">
           {filtersBefore.map((element) => {
             return (
-              <li className="custom-btn-side-bar">
+
+              <li className="custom-btn-side-bar group">
                 <div className="flex justify-between">
-                  <div className="flex">
+                  <div className="flex space-x-3">
                     <div>
-                      <i className={element.className}></i>
+                    <div className="group-hover:hidden">
+                      <i className={`${element.className} `}></i>
                     </div>
-                    <div className="text-start ml-3">{element.name}</div>
+                    <div className="hidden group-hover:block">
+                      <i className={`${element.className} fa-beat`}></i>
+                    </div>
+                    </div>
+                    <div className="text-start ">{element.name}</div>
                   </div>
                   <div className="ml-2">{element.available}</div>
                 </div>
@@ -29,15 +35,20 @@ const MainSidebar = () => {
           </li>
           {filtersAfter.map((element) => {
             return (
-              <li className=" custom-btn-side-bar">
+              <li className="custom-btn-side-bar group">
                 <div className="flex justify-between">
-                  <div className="flex">
+                  <div className="flex space-x-3">
                     <div>
-                      <i className={element.className}></i>
+                    <div className="group-hover:hidden">
+                      <i className={`${element.className} `}></i>
                     </div>
-                    <div className="text-start ml-2">{element.name}</div>
+                    <div className="hidden group-hover:block">
+                      <i className={`${element.className} fa-beat`}></i>
+                    </div>
+                    </div>
+                    <div className="text-start ">{element.name}</div>
                   </div>
-                  <div className="ml-1">{element.available}</div>
+                  <div className="ml-2">{element.available}</div>
                 </div>
               </li>
             );

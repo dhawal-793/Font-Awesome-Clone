@@ -35,12 +35,12 @@ const MainContent = () => {
                 </div>
                 {/* <!-- Pagination --> */}
                 <div className="flex justify-center items-center py-8">
-                    <div className="text-sm md:text-base  py-1 px-3  md:p-2 md:px-4 lg:p-4 lg:px-6 rounded-md bg-[rgb(20,110,190)] text-white">1</div>
-                    <div className="text-sm md:text-base  py-1 px-3  md:p-2 md:px-4 lg:p-4 lg:px-6 rounded-md hover:bg-gray-300 hover:text-[rgb(25,48,83)] text-[rgb(20,110,190)]">2</div>
-                    <div className="text-sm md:text-base  py-1 px-3  md:p-2 md:px-4 lg:p-4 lg:px-6 rounded-md hover:bg-gray-300 hover:text-[rgb(25,48,83)] text-[rgb(20,110,190)]">3</div>
+                    <div className="text-sm md:text-base  py-1 px-3  md:p-2 md:px-4 lg:p-4 lg:px-6 rounded-md bg-[#146EBE] text-white">1</div>
+                    <div className="text-sm md:text-base  py-1 px-3  md:p-2 md:px-4 lg:p-4 lg:px-6 rounded-md hover:bg-gray-300 hover:text-[#193053] text-[#146EBE]">2</div>
+                    <div className="text-sm md:text-base  py-1 px-3  md:p-2 md:px-4 lg:p-4 lg:px-6 rounded-md hover:bg-gray-300 hover:text-[#193053] text-[#146EBE]">3</div>
                     <div className="text-sm md:text-base  py-1 px-3  md:p-2 md:px-4 lg:p-4 lg:px-6 rounded-md ">...</div>
                     <div className="text-sm md:text-base  py-1 px-3  md:p-2 md:px-4 lg:p-4 lg:px-6 rounded-md ">20</div>
-                    <div className="text-sm md:text-base  py-1 px-3  md:p-2 md:px-4 lg:p-4 lg:px-6 rounded-md hover:bg-gray-300 hover:text-[rgb(25,48,83)] text-[rgb(20,110,190)]">Next
+                    <div className="text-sm md:text-base  py-1 px-3  md:p-2 md:px-4 lg:p-4 lg:px-6 rounded-md hover:bg-gray-300 hover:text-[#193053] text-[#146EBE]">Next
                         &nbsp;&nbsp; <span className=' text-sm'><i className="fa-solid fa-chevron-right "></i></span></div>
                 </div>
             </div>
