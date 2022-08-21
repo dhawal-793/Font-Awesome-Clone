@@ -50,20 +50,20 @@ const Header = () => {
         {/* <!-- Display buttons --> */}
         <div className="flex justify-between lg:justify-end px-4 md:px-0  my-9 lg:my-0 text-sm  md:text-xl">
           <div className="lg:hidden">
-            <button className=" font-semibold text-[#183153] hover:text-[rgb(20,110,190)]">
+            <button className=" font-semibold text-[#183153] hover:text-[#146EBE]">
               <i className="fa-solid fa-filter"></i> show Filters
             </button>
           </div>
 
           <div className="space-x-4">
-            <button className="px-1  md:px-4 hover:text-[rgb(20,110,190)] sm:text-[rgb(20,110,190)] sm:hover:text-[#74c0fc]">
-              <i className="fa-solid fa-table-cells"></i>
+            <button className="px-1  md:px-4 hover:text-[#146EBE] sm:text-[#146EBE] sm:hover:text-[#74c0fc]">
+              <i className="fa-solid fa-table-cells "></i>
             </button>
-            <button className="px-1  md:px-4 text-[rgb(20,110,190)] hover:text-[#74c0fc] sm:text-[#183153] sm:hover:text-[rgb(20,110,190)]">
+            <button className="px-1  md:px-4 text-[#146EBE] hover:text-[#74c0fc] sm:text-[#183153] sm:hover:text-[#146EBE]">
               <i className="fa-solid fa-border-all"></i>
             </button>
-            <button className="px-1  md:pl-4 text-[#183153] hover:text-[rgb(20,110,190)]">
-              <i className="fa-solid fa-bars"></i>
+            <button className="px-1  md:pl-4 text-[#183153] hover:text-[#146EBE]">
+              <i  className="fa-solid fa-list"></i>
             </button>
           </div>
         </div>

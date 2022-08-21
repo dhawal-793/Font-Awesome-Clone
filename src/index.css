@@ -2,7 +2,7 @@
 @tailwind components;
 
 .custom-btn-header {
-  @apply p-2 flex align-middle font-light text-xs md:px-5 md:py-4 mx-0 text-[rgb(25,48,83)] md:font-bold lg:p-4 lg:text-base border-2 border-r-0 hover:border-2 hover:border-[rgb(20,110,190)] focus-within:bg-[rgb(20,110,190)] focus-within:text-white active:bg-[rgb(20,110,190)];
+  @apply p-2 cursor-pointer flex align-middle font-light text-xs md:px-5 md:py-4 mx-0 text-[#193053] md:font-bold lg:p-4 lg:text-base border-2 border-[#f0f1f3] border-r-0 hover:border-2 hover:border-[#146EBE] focus-within:bg-[#146EBE] focus-within:text-white active:bg-[#146EBE];
 }
 .custom-btn-side-bar {
   @apply py-1 px-3 border-2 cursor-pointer  border-gray-100 rounded-md hover:border-2 hover:border-gray-300;
