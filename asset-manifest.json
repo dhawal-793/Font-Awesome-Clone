@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Font-Awesome-Clone/static/css/main.5e130d6a.css",
-    "main.js": "/Font-Awesome-Clone/static/js/main.a2470c57.js",
-    "static/js/787.d4ff5d83.chunk.js": "/Font-Awesome-Clone/static/js/787.d4ff5d83.chunk.js",
-    "index.html": "/Font-Awesome-Clone/index.html",
-    "main.5e130d6a.css.map": "/Font-Awesome-Clone/static/css/main.5e130d6a.css.map",
-    "main.a2470c57.js.map": "/Font-Awesome-Clone/static/js/main.a2470c57.js.map",
-    "787.d4ff5d83.chunk.js.map": "/Font-Awesome-Clone/static/js/787.d4ff5d83.chunk.js.map"
+    "main.css": "/static/css/main.5e130d6a.css",
+    "main.js": "/static/js/main.c8ea47b9.js",
+    "static/js/787.d4ff5d83.chunk.js": "/static/js/787.d4ff5d83.chunk.js",
+    "index.html": "/index.html",
+    "main.5e130d6a.css.map": "/static/css/main.5e130d6a.css.map",
+    "main.c8ea47b9.js.map": "/static/js/main.c8ea47b9.js.map",
+    "787.d4ff5d83.chunk.js.map": "/static/js/787.d4ff5d83.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e130d6a.css",
-    "static/js/main.a2470c57.js"
+    "static/js/main.c8ea47b9.js"
   ]
 }
