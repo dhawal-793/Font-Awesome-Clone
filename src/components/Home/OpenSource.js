@@ -9,27 +9,27 @@ const OpenSource = () => {
                     <div className='flex py-4 justify-center items-center space-x-8 md:space-x-20 lg:space-x-32 xl:space-x-52 '>
                         <div className='text-white hover:text-[#74c0fc] text-4xl lg:text-6xl'>
                             <a href="https://www.docker.com" target="_blank" rel="noreferrer" className="" >
-                                <i class="fa-brands fa-docker"></i>
+                                <i className="fa-brands fa-docker"></i>
                             </a>
                         </div>
                         <div className='text-white hover:text-[#74c0fc] text-4xl lg:text-6xl'>
                             <a href="https://about.gitlab.com" target="_blank" rel="noreferrer" className="" >
-                                <i class="fa-brands fa-gitlab"></i>
+                                <i className="fa-brands fa-gitlab"></i>
                             </a>
                         </div>
                         <div className='text-white hover:text-[#74c0fc] text-4xl lg:text-6xl'>
                             <a href="https://aws.amazon.com" target="_blank" rel="noreferrer" className="" >
-                                <i class="fa-brands fa-aws"></i>
+                                <i className="fa-brands fa-aws"></i>
                             </a>
                         </div>
                         <div className='text-white hover:text-[#74c0fc] text-4xl lg:text-6xl'>
                             <a href="https://www.digitalocean.com" target="_blank" rel="noreferrer" className="" >
-                                <i class="fa-brands fa-digital-ocean"></i>
+                                <i className="fa-brands fa-digital-ocean"></i>
                             </a>
                         </div>
                         <div className='text-white hover:text-[#74c0fc] text-4xl lg:text-6xl'>
                             <a href="https://www.figma.com" target="_blank" rel="noreferrer" className="" >
-                                <i class="fa-brands fa-figma"></i>
+                                <i className="fa-brands fa-figma"></i>
                             </a>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ const OpenSource = () => {
                             </div>
                             <div className=" rounded-lg md:rounded-xl bg-[#183153] pb-1 md:pb-[0.3rem] w-full md:w-fit my-4" >
                                 <div className='border md:border-2 border-[#183153] px-6 py-3 rounded-lg md:rounded-xl w-full md:w-fit cursor-pointer items-center text-center bg-[#63e6be] hover:bg-[#0ca678] text-[#183153] font-semibold'>
-                                    <span><i class="fa-solid fa-binoculars"></i></span>&nbsp; &nbsp;
+                                    <span><i className="fa-solid fa-binoculars"></i></span>&nbsp; &nbsp;
                                     <span>Explore Font Awesome Free</span>
                                 </div>
                             </div>
@@ -60,7 +60,7 @@ const OpenSource = () => {
                     <div className='flex flex-col md:flex-row justify-between space-y-8 md:space-y-0 md:space-x-8 px-8 py-8 lg:px-24 xl:px-36'>
                         <div className='items-center py-6 px-3 bg-white rounded-xl'>
                             <div className='text-6xl p-4 text-center text-[#0ca678]'>
-                                <i class="fa-solid fa-hand-holding-heart"></i>
+                                <i className="fa-solid fa-hand-holding-heart"></i>
                             </div>
                             <div className='px-6'>
                                 <div className='text-2xl font-bold my-2 py-2'>
@@ -73,7 +73,7 @@ const OpenSource = () => {
                         </div>
                         <div className='items-center py-6 px-3 bg-white rounded-xl'>
                             <div className='text-6xl p-4 text-center text-[#0ca678]'>
-                                <i class="fa-solid fa-shield"></i>
+                                <i className="fa-solid fa-shield"></i>
                             </div>
                             <div className='px-6'>
                                 <div className='text-2xl font-bold my-2 py-2'>
@@ -86,7 +86,7 @@ const OpenSource = () => {
                         </div>
                         <div className='items-center py-6 px-3 bg-white rounded-xl'>
                             <div className='text-6xl p-4 text-center text-[#0ca678]'>
-                                <i class="fa-solid fa-rocket"></i>
+                                <i className="fa-solid fa-rocket"></i>
                             </div>
                             <div className='px-6'>
                                 <div className='text-2xl font-bold my-2 py-2'>
@@ -99,8 +99,8 @@ const OpenSource = () => {
                         </div>
                     </div>
                     <div className='flex flex-col space-y-3 lg:flex-row lg:space-y-0 justify-center space-x-8 text-center m-auto my-6 py-6 items-center'>
-                        <div className="cursor-pointer space-x-5 group hover:text-[#146EBE] text-lg">
-                            <span><i class="fa-brands fa-github"></i></span>
+                        <div className="cursor-pointer space-x-5 group hover:text-[#146EBE] text-lg px-5">
+                            <span><i className="fa-brands fa-github"></i></span>
                             <span className="underline decoration-dotted group-hover:decoration-solid font-semibold">
                                 Font Awesome is one of the top open source projects on GitHub.
                             </span>
@@ -108,13 +108,13 @@ const OpenSource = () => {
                         <div className='flex space-x-3 text-sm'>
                             <div className='flex cursor-pointer '>
                                 <span className='border border-gray-300 mx-0 hover:bg-gray-200 px-[0.2rem]'>
-                                <i class="fa-brands fa-github"></i> Star
+                                <i className="fa-brands fa-github"></i> Star
                                 </span>
                                 <span className='border border-gray-300 mx-0 bg-white hover:text-[#146EBE] px-[0.2rem]'> 69.924</span>
                             </div>
                             <div className='flex cursor-pointer'>
                                 <span className='border border-gray-300 mx-0 hover:bg-gray-200 px-[0.2rem]'>
-                                <i class="fa-brands fa-github"></i> Fork
+                                <i className="fa-brands fa-github"></i> Fork
                                 </span>
                                 <span className='border border-gray-300 mx-0 bg-white hover:text-[#146EBE] px-[0.2rem]'> 12,124</span>
                             </div>

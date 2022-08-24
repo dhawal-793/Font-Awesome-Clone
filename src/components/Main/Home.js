@@ -1,9 +1,12 @@
 import React from "react";
+import Topbar from "../Home/Topbar";
 import Header from "../Home/Header";
 import Hero from "../Home/Hero";
 import NewFeatures from "../Home/NewFeatures";
 import OpenSource from "../Home/OpenSource";
-import Topbar from "../Home/Topbar";
+import StylingTools from "../Home/StylingTools";
+import Customize from "../Home/Customize";
+import Pro from "../Home/Pro";
 
 const Home = () => {
   return (
@@ -13,6 +16,9 @@ const Home = () => {
       <Hero />
       <NewFeatures />
       <OpenSource />
+      <StylingTools />
+      <Customize />
+      <Pro />
     </>
   );
 };
