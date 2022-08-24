@@ -43,7 +43,7 @@ const MainSidebar = () => {
                       <i className={`${element.className} `}></i>
                     </div>
                     <div className="hidden group-hover:block">
-                      <i className={`${element.className} fa-beat`}></i>
+                      <i className="fa-regular fa-square"></i>
                     </div>
                     </div>
                     <div className="text-start ">{element.name}</div>
