@@ -13,7 +13,7 @@ Download according to your syaytem (I prefer LTS version).
 [git clone https://github.com/dhawal-793/Font-Awesome-Clone]
 
 
-# Getting Started with NewsPanda App
+# Getting Started with Font-Awesome-Clone project
 
 Open the terminal and cd to the root directory of Font-Awesome-Clone.
 
